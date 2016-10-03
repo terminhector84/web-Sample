@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head><title>Sample Site</title>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<link rel="stylesheet" type="text/css" href="testsite.css">
+		
+		<script type="text/javascript" src="https://gc.kis.scr.kaspersky-labs.com/1B74BD89-2A22-4B93-B451-1C9E1052A0EC/main.js" charset="UTF-8"></script></head>
+			<body>
+				<header class="header">
+					<a class="logo" href="index.html"><h1>TestSite</h1></a>
+					<form>
+						<input type="text" name="search" placeholder="Search">
+						<input type="button" class="button" value="Search">
+				
+						
+					</form>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#" onmouseover="dropdown()">Products</a>
+							<div id="hoverMenu" onmouseover="dropdown()" onmouseout="dropback()">
+								<a  href="http://www.bestbuy.com">Computers</a>
+								<a href="#">Appliances</a>
+								<a  href="#">Tv sets</a>
+								<a href="#">Audio</a>
+						     </div>
+							</li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact Us</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+			<div class="big-img">
+				<div class="background-img">
+				</div>
+			</div>
+			<div class="main">
+			    <div class="content">
+				<h2>Lorem Ipsum</h2>
+				<p>Contrary to popular belief, <strong>Lorem Ipsum</strong> is not simply random text.
+				It has roots in a piece of classical Latin literature from 45 BC, making
+				it over 2000 years old.
+				</p>
+			    </div> <div class="content">
+				<h2>Lorem Ipsum</h2>
+				<p>Contrary to popular belief, <strong>Lorem Ipsum</strong> is not simply random text.
+				It has roots in a piece of classical Latin literature from 45 BC, making
+				it over 2000 years old.
+				</p>
+			    </div>
+			</div>
+			<div class="section-img">
+		
+					<div class="gallery">
+					<a href="http://unsplash.com">
+						<img src="images/berrytart.jpg" alt="beautiful berry tart" width="320" height="220" >
+						<p>picture taken from unsplash.com</p></a>
+					</div>
+					<div class="gallery">
+					<a href="http://unsplash.com">
+						<img src="images/clock.jpg" alt="vintage table clock" width="320" height="220" >
+						<p>picture taken from unsplash.com</p></a>
+					</div>
+					<div class="gallery">
+					<a href="http://unsplash.com">
+						<img src="images/fallspirit.jpg" alt="foliage pile" width="320" height="220" >
+						<p>picture taken from unsplash.com</p></a>
+					</div>
+					<div class="gallery">
+					<a href="http://unsplash.com">
+						<img src="images/shootingstar.jpg" alt="shooting stars in a forest background" width="320" height="220" >
+						<p>picture taken from unsplash.com</p></a>
+					</div>
+			</div>
+				<footer>
+				<div>
+					<p>&copy; 2016 TestSite, Inc. All rights Reserved.
+					</p>
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="#"><span>&#9742; </span>Call</a></li>
+							<li><a href="#">Email Us</a></li>
+							<li><a href="#">Chat</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</nav>
+				</div>
+				</footer>
+				<script>
+				function dropdown(){
+					document.getElementById("hoverMenu").style.display="block";
+					}
+					function dropback(){
+					document.getElementById("hoverMenu").style.display="none";
+					}
+		</script>
+			</body>
+	</html>
